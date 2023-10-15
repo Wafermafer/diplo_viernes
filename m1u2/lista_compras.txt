@@ -1,7 +1,4 @@
 pan 
-galletas
+
 
 jugo
-mandarinas
-peras
-bananas
