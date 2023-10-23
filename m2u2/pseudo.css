@@ -18,10 +18,10 @@ span{
 }
 
 
-/* span::after{
+ span::after{
  content: 'despues';
  background-color: red;
-} */
+} 
 /* 
 span::before{
  content: 'antes';
