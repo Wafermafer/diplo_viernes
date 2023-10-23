@@ -22,8 +22,8 @@ span{
  content: 'despues';
  background-color: red;
 } 
-/* 
+
 span::before{
  content: 'antes';
  background-color: blue;
-} */
+} 
