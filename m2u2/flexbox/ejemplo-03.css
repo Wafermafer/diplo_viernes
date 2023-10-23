@@ -2,6 +2,7 @@
     background-color: blue;
     display: inline-flex;
     flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .item{
