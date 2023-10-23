@@ -4,6 +4,8 @@
     display: inline-flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    align-content: flex-end;
+
 }
 
 .item{
