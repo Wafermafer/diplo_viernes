@@ -1,0 +1,30 @@
+/* font-family: 'Roboto Slab', serif; */
+
+.caja {
+    /*background-color: yellow;*/
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 100px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(98, 175, 166, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: -10px -10px 5px black;  /* eje X -eje Y - blur - color*/
+    border-radius: 20px ;
+    border: 10px solid blueviolet;
+}
+div{
+    background-color: yellow;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px solid black;
+}
+
+h2{
+    color: green;
+    font-family: 'Roboto Slab', serif; 
+}
+
+.tamanio{
+    font-size: 100px;
+    color: blueviolet;
+}

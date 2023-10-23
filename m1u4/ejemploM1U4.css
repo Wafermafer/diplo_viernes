@@ -1,0 +1,36 @@
+h1{
+    color: red; /*color de la fuente*/
+    background-color: yellow; /*fondo*/
+    text-align: center; /*alineación*/
+    text-transform: uppercase; /* mayuscula*/
+}
+
+h2{
+    color: green;
+    font-size: 40px; /*tamaño de la fuente*/
+    font-family: Arial;
+}
+
+p{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 25px; /*alto de linea*/
+    
+}
+
+#caja{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box; /* se utiliza con el padding*/
+    margin-left: 30px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.destacados{
+    font-size: 25px;
+    color: pink;
+}
