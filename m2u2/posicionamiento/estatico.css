@@ -6,3 +6,14 @@
     width: 60%;
     height: 500px;
 }
+
+#verde{
+    /* position: static; */
+    margin: 0 auto;
+    height: 20%;
+    width: 94%;
+    border: 1px solid #80BC3A;
+    margin-bottom: 20px;
+    background-color: #98E53E;
+    
+}
