@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+
+#texto {
+    background: yellow;
+    margin-top: 65px;
+}
+
+#fijo {
+    position: fixed;
+    z-index: 200;
+    top: 0px;
+    background-color: #CCCCCC;
+    height: 60px;
+    width: 100%; /*Se le da forma a la botonera*/
+}
