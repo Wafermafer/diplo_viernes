@@ -3,8 +3,8 @@
     background-color: #fcfcfc;
     /*position static; */
     margin:0 auto;
-    width: 40%;
-    height: 500px;
+    width: 525px;
+    height: 525px;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -18,18 +18,18 @@ p{
 
 #rojo, #azul, #verde{
     position: relative; 
-    top: -21px;
-    left: 186px;
-    height: 30%;
-    width: 30%;
-    border: 1px;
-    box-sizing: border-box;
+    /*top: -21px;*/
+    left: 176px;
+    height: 100%;
+    width: 33%;
+    padding-top: 65px;
 }
 
 #rojo{ 
     margin: 0 auto;
     background-color: #971111; 
     border-color: #971111; 
+    
 }
 
 #azul{
