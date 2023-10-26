@@ -1,0 +1,45 @@
+#contenedor{
+    border: 2px solid #0e0d0d;
+    background-color: #fcfcfc;
+    /*position static; */
+    margin:0 auto;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;  
+}
+
+p{
+    color: #fcfcfc;
+    text-align: center;
+}
+
+#rojo{
+    margin: 0 auto;
+    height: 25%;
+    width: 20%;
+    border: 1px solid #971111;
+    margin-bottom: 20px;
+    background-color: #971111;
+    
+}
+
+#azul{
+    margin: 0 auto;
+    height: 25%;
+    width: 20%;
+    border: 1px solid #131ead;
+    margin-bottom: 20px;
+    background-color: #131ead;
+    
+}
+
+#verde{
+    margin: 0 auto;
+    height: 25%;
+    width: 20%;
+    border: 1px solid #188b44;
+    margin-bottom: 20px;
+    background-color: #188b44;
+    
+}
