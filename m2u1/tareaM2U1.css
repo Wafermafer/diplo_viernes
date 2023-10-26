@@ -10,7 +10,7 @@ h2{
 #caja{
     background-color: cadetblue;
     width: 300px;
-    height: 400px;
+    height: 500px;
     padding: 20px;
     box-sizing: border-box; /* se utiliza con el padding*/
     margin-left: 30px;
@@ -18,7 +18,7 @@ h2{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,98,154,1) 35%, rgba(0,212,255,1) 100%);
     box-shadow: -15px 10px 5px rgb(107, 69, 138);  /* eje X -eje Y - blur - color*/
-    border-radius: 20px ;
+    border-radius: 20px 10px 50px 300px;
     border: 10px solid blueviolet;
 }
 
