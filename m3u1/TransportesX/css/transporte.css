@@ -19,5 +19,8 @@ header h1{
     font-size: 40px;
     font-weight: 100;
     font-style: italic;
-    display: inline-block;
+    display: inline-block; /* Para ubicar H1 al lado d ela imagen  */
+    position: relative; /* Para elevar el H1 */
+    bottom: 35px;
+    margin-left: 10px;
 }
