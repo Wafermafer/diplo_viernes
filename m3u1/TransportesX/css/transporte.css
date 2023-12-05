@@ -71,3 +71,48 @@ nav ul li a.activo{
     max-width: 960px;
     margin: 0 auto;
 }
+
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 25%;
+}
+
+/*Se desplaza a testimonio al lado de Bienvenidos*/
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+/*Se encasilla a testimonio*/
+.testimonios{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonios .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonios .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
