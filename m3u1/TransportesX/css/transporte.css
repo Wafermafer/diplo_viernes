@@ -61,3 +61,13 @@ footer{
     padding: 5px 0; /* 3rem 0*/
     margin-top: 20px;
 }
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+} 
+
+/*Para centrar*/
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
