@@ -219,9 +219,45 @@ h2{
 }
 
 /*seccion Novadades*/
-
+h3{
+    background-color: #6da9ed;
+}
 h4{
     font-style: oblique;
 }
 
+
+/*seccion Contactos*/
+
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+ 
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
 
