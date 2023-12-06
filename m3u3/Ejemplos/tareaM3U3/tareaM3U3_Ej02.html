@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Módulo 3 - Unidad 3</title>
+   
+    <script type="text/javascript" src="tareaM3U3_Ej01.js"></script>
+    <script type="text/javascript" src="tareaM3U3_Ej02.js"></script>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .principal {
+            display: flexbox;
+            gap: 24px;
+        }
+
+        .formulario p {
+            display: flex;
+        }
+
+        .formulario p label {
+            min-width: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        .formulario p:nth-child(4) {
+            align-items: start;
+        }
+        .resultado{
+            background-color: chocolate;
+            color: white;
+            font-style: italic;
+            width: max-content;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio javascript</h1>
+    </header>
+    <main>
+        <div class="principal">
+            <h2>Ingrese la cantidad de metros a recorrer</h2>
+            <form action="" class="formulario">
+                <p><label for="distancia">Distancia en mts: </label>
+                    <input type="number" name="distancia" id="distancia" required>
+                </p>
+                <p class="resultado" id="resultado">
+
+                </p>
+                <p>
+                    <input type="button" value="calcular" onclick="calcular(distancia.value);">
+                </p>
+                <hr>
+                <h3>Ingrese valores numéricos (hasta 10)</h3>
+                <p>
+                    <label for="elementoArray">Ingrese un número: </label>
+                    <input type="number" name="elementoArray" id="elementoArray" required>
+                </p>
+                <p>
+                    <input type="button" value="Agregar" onclick="agregar(elementoArray.value);">
+
+                </p>
+                <p>Presione 'Obtener mayor' para retornar el mayor número del Array:
+                </p>
+                <p>[<span style="font-style: italic; background-color: darkseagreen;" id="listaNros"></span>]</p>
+                <p>
+                    <input type="button" value="Obtener mayor" onclick="obtenerMayor();">
+                </p>
+                <p id="resultadoMayor" class="resultado">
+                </p>
+                <hr>
+                <p><button value="Limpiar" onclick="resetear();">Limpiar Formulario</button></p>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
