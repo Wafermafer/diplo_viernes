@@ -22,9 +22,9 @@ const HomePage = (props) => {
                 </div>
                 <div className='testimonios'>
                     <h2>Testimonios</h2>
-                    <div class="testimonio">
-                        <span class="cita">Simplemente Excelente</span>
-                        <span class="autor">Juan Gomez - zapatos.com</span>
+                    <div className="testimonio">
+                        <span className="cita">Simplemente Excelente</span>
+                        <span className="autor">Juan Gomez - zapatos.com</span>
                     </div>
                 </div>
             </div>

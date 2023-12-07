@@ -4,8 +4,8 @@ import './NosotrosPage.css';
 
 const NosotrosPage = (props) => {
     return (
-        <main class="holder">
-        <div class="historia">
+        <main className="holder">
+        <div className="historia">
             <h2>Historia</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam autem repudiandae odio repellendus
                 est. Praesentium accusamus quis ex. Dolore ex natus iusto beatae id. Architecto quidem dolore
@@ -16,10 +16,10 @@ const NosotrosPage = (props) => {
                 nostrum quo.
             </p>
         </div>
-        <div class="staff">
+        <div className="staff">
             <h2>Staff</h2>
-            <div class="personas">
-                <div class="persona">
+            <div className="personas">
+                <div className="persona">
                     <img src="images/nosotros/nosotros1.jpg" alt="Juan Gomez" />
                     <h5>Juan Gomez</h5>
                     <h6>Gerente General</h6>
@@ -27,7 +27,7 @@ const NosotrosPage = (props) => {
                         mollitia placeat exercitationem non asperiores repellat ea doloribus earum a, adipisci assumenda
                         alias nihil nesciunt inventore hic modi.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="images/nosotros/nosotros2.jpg" alt="Daiana Reyes" />
                     <h5>Daiana Reyes</h5>
                     <h6>Gerente Comercial</h6>
@@ -35,7 +35,7 @@ const NosotrosPage = (props) => {
                         mollitia placeat exercitationem non asperiores repellat ea doloribus earum a, adipisci assumenda
                         alias nihil nesciunt inventore hic modi.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="images/nosotros/nosotros3.jpg" alt="Roberto Zaptos" />
                     <h5>Roberto Zaptos</h5>
                     <h6>Gerente de Sistemas</h6>
@@ -43,7 +43,7 @@ const NosotrosPage = (props) => {
                         mollitia placeat exercitationem non asperiores repellat ea doloribus earum a, adipisci assumenda
                         alias nihil nesciunt inventore hic modi.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="images/nosotros/nosotros4.jpg" alt="Sandra Mastropiero" />
                     <h5>Sandra Mastropiero</h5>
                     <h6>Gerente de Marketing</h6>
@@ -51,7 +51,7 @@ const NosotrosPage = (props) => {
                         mollitia placeat exercitationem non asperiores repellat ea doloribus earum a, adipisci assumenda
                         alias nihil nesciunt inventore hic modi.</p>
                 </div>
-                <div class="persona">
+                <div className="persona">
                     <img src="images/nosotros/nosotros5.jpg" alt="Luciano Figuero" />
                     <h5>Luciano Figuero</h5>
                     <h6>Gerente Logística</h6>
