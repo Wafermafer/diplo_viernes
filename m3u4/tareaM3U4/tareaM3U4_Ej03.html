@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones de Alumnos</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+        }
+
+        .grid>span {
+            padding: 8px 4px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+
+        .estado {
+            font-style: italic;
+            color: white;
+        }
+
+        .noAprobado {
+            background-color: red;
+        }
+
+        .aprobado {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Calificaciones de Alumnos</h1>
+    </header>
+    <main class="principal">
+        <div id="lista-alumnos" class="grid">
+            <span><strong>Nombre</strong></span>
+            <span><strong>Nota</strong></span>
+            <span><strong>Estado</strong></span>
+        </div>
+    </main>
+    <script type="text/javascript" src="tareaM3U4_Ej03.js"></script>
+</body>
+
+</html>

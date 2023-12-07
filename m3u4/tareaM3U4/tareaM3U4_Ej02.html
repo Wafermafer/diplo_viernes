@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 3 - Unidad 4 - Ejercicio 2</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .principal {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+        }
+
+        .formulario p {
+            display: flex;
+        }
+
+        .formulario p label {
+            min-width: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        .formulario p:nth-child(4) {
+            align-items: start;
+        }
+
+        .formulario textarea {
+            resize: none;
+            height: 150px;
+        }
+
+        .resultado{
+            background-color: chocolate;
+            color: white;
+            font-style: italic;
+            width: max-content;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Unidad 4 - Ejercicio 2 javascript </h1>
+    </header>
+    <main class="principal">
+        <h2>Ingrese un texto para contar los caracteres</h2>
+        <form action="" id="formulario">
+            <p>
+                <textarea name="texto" id="texto" cols="30" rows="10"></textarea>            
+            </p>
+            <p class="resultado" id="resultado">
+                Cantidad de caracteres ingresados: <span id="contador">0</span>
+            </p>
+        </form>
+    </main>
+    <script type="text/javascript" src="tareaM3U4_Ej02.js"></script>
+</body>
+</html>
