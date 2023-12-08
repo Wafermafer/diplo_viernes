@@ -5,7 +5,7 @@ import Nav from './components/layout/Nav/Nav';
 // import logo from './logo.svg';
 import './App.css';
 import HomePage from './pages/Home/HomePage';
-import NosotrosPage from './pages/Nosotros/NosotrosPages';
+import NosotrosPage from './pages/Nosotros/NosotrosPage';
 import NovedadesPage from './pages/Novedades/NovedadesPage';
 import ContactoPage from './pages/Contacto/ContactoPage';
 

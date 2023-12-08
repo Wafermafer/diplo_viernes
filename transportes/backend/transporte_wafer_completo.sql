@@ -65,7 +65,7 @@ CREATE TABLE `usuarios` (
 
 LOCK TABLES `usuarios` WRITE;
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
-INSERT INTO `usuarios` VALUES (1,'admin','202cb962ac59075b964b07152d234b70'),(2,'cristian','81dc9bdb52d04dc20036dbd8313ed055'),(3,'cristian','81dc9bdb52d04dc20036dbd8313ed055');
+INSERT INTO `usuarios` VALUES (1,'admin','202cb962ac59075b964b07152d234b70'),(2,'mafer','123'),(3,'wafer','123');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
